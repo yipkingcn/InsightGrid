@@ -1,0 +1,80 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local leftover, not for GitHub
+README.md.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+.ipynb_checkpoints/
+
+# Node / Vue
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.next/
+.nuxt/
+.vite/
+.output/
+dist/
+*.tsbuildinfo
+.eslintcache
+coverage/
+
+# Docker Desktop / local compose overrides (Mac vs Win11)
+docker-compose.override.yml
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# Logs and temp
+logs/
+*.log
+tmp/
+temp/
